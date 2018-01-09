@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/nodemon/bin/nodemon.js src/app.js --exec \"npm run lint && node\"",
+    "lint": "node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thomas-Elder/hobby.node.vue"
+  },
+  "author": "Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thomas-Elder/hobby.node.vue/issues"
+  },
+  "homepage": "https://github.com/Thomas-Elder/hobby.node.vue",
+  "dependencies": {
+    "nodemon": "~1.14.9",
+    "eslint": "~4.15.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "~11.0.0-beta.0",
+    "eslint-plugin-standard": "~3.0.1",
+    "eslint-plugin-promise": "~3.6.0",
+    "eslint-plugin-node": "~5.2.1",
+    "eslint-plugin-import": "~2.8.0"
+  }
+}
