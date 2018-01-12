@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/Thomas-Elder/hobby.node.vue",
   "dependencies": {
-    "cors": "~2.8.4",
-    "morgan": "~1.9.0",
     "body-parser": "~1.18.2",
-    "express": "~4.16.2"
+    "cors": "~2.8.4",
+    "express": "~4.16.2",
+    "morgan": "~1.9.0",
+    "sequelize": "^4.31.0",
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
     "eslint-config-standard": "~11.0.0-beta.0",
